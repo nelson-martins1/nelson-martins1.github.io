@@ -6,38 +6,43 @@
     <title>Portfólio Nelson Martins</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-          
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">       
 </head>
 <body>
     <main id="container">
         <aside id="bio-container">
             <h2>Nelson Martins</h2>
-            <img src="imgs/luffy-png.jpeg" alt="Nelson Martins">
+            <img id="bio-image" src="imgs/luffy-png.jpeg" alt="">
             <p>Olá, meu nome é Nelson Martins e sou <span class="highlight">Desenvolvedor Front-end.</span> </p>
             <p id="welcome-text">Seja bem vindo!</p>
             <ul id="social-container">
                 <li><a href="https://www.linkedin.com/in/nelson-neto-5a942617a/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                 <li><a href="https://github.com/nelson-martins1" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>  
                 <div id="email-container">
                     <ion-icon name="mail-outline"></ion-icon><a href="mailto:martinsnelsonneto10@gmail.com">martinsnelsonneto10@gmail.com</a>
                 </div>
-            </ul>
-
         </aside>
         <section id="about-container">
             <h1 id="name">Nelson Martins</h1>
-            <p id="title"> <span>Desenvolvedor Front-end</span> </p>
+            <p id="title"> <span class="highlight">Desenvolvedor Front-end</span> </p>
             <p class="description">Sou desenvolvedor com foco no front-end, amo estudar e aprender coisas novas.</p>
-
-
-        </section>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">As tecnologias que domino:</p>
+            <div id="skills-container">
+                <div id="skills-box">
+                    <p class="skills-titles">Front-end</p>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div id="skills-box">
+                    <p class="skills-titles">Frameworks</p>
+                     <i class="devicon-react-plain colored"></i>
+                     <i class="devicon-bootstrap-plain colored"></i>         
+                </div>
+            </div>
     </main>
-    
-    
-    
-   
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-          
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>          
 </body>
 </html>
