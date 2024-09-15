@@ -88,10 +88,34 @@
     flex: 1 1 0;
 }
 
+#cellphone-container ion-icon,
+#cellphone-container a {
+    flex:  1 1 0;
+
+}
+
+#cellphone-container ion-icon {
+    color: var(--main-color);
+    font-size: 20px;
+    margin-right: 5px;
+    max-width: 20px;
+}
+
+#cellphone-container{
+    display: flex;
+    justify-content: center;
+}
+
 #email-container a {
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
+    margin-right: 10px;
+}
+#cellphone-container a {
+    color: var(--main-text-color);
+    text-decoration: none;
+    max-width:225px;
     margin-right: 10px;
 }
 
